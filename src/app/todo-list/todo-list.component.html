@@ -31,7 +31,7 @@
     <div class="task-list" width="100%">
       <div type="none" *ngFor="let a of todos; index as i" class="tr" width="100%">
         <div class="title">{{ a.title }} </div>
-        <div class="del"><img src="../../assets/check (1).png" id="todo{{i}}" (click)="toggleTodo(todo)"></div>
+        <div class="del"><img src="../../assets/check (1).png" id="todo{{i}}" (todo)="a" (i)="i" (click)="toggleTodo(a)"></div>
         <div class="del"><img src="../../assets/multiply (1).png" (todo)="a" (i)="i" (click)="deleteItem(i)"></div>
       </div>
     </div>
@@ -65,9 +65,9 @@
     <h4 class="task-list-title text-left">Completed Tasks :</h4>
 
     <div class="task-list" width="100%">
-      <div type="none" *ngFor="let a of todos; index as i" class="tr" width="100%">
-        <div class="title">{{ a.title }} </div>
-        <div class="del2"><img src="../../assets/multiply (1).png" (todo)="a" (i)="i" (click)="deleteItem(i)"></div>
+      <div type="none" *ngFor="let b of donetodos; index as i" class="tr" width="100%">
+        <div class="title">{{ b.title }} </div>
+        <div class="del2"><img src="../../assets/multiply (1).png" (donetodos)="b" (i)="i" (click)="deleteDoneItem(i)"></div>
       </div>
     </div>
   </div>
