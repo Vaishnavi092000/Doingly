@@ -7,6 +7,11 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 import { HomeComponent } from './home/home.component';
 import { AddTodoComponent } from './add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
+import { CategoriesComponent } from './categories/categories.component';
+import { PersonalComponent } from './categories/personal/personal.component';
+import { WorkComponent } from './categories/work/work.component';
+import { HealthComponent } from './categories/health/health.component';
+import { TravelComponent } from './categories/travel/travel.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +19,11 @@ import { FormsModule } from '@angular/forms';
     TodoListComponent,
     HomeComponent,
     AddTodoComponent,
+    CategoriesComponent,
+    PersonalComponent,
+    WorkComponent,
+    HealthComponent,
+    TravelComponent,
   ],
   imports: [
     BrowserModule,

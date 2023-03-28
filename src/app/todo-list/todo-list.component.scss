@@ -1,12 +1,12 @@
 .app-name{font-family: 'Lobster', cursive;}
 *{font-family: 'Roboto Slab', serif;} 
-.main-container{padding: 10% 5%;}
+.main-container{padding: 10% 0%; padding-top: 0;}
 .mb-10{margin-bottom: 10%;}
 .mb-5{margin-top: 5%;}
 .mb-20{margin-bottom: 20%;}
 .w100{width: 100%;}
 
-.rounded-container{background: #FF735C; border-radius: 20px; float: left; width: 100%; padding:20px 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.rounded-container{background: #FF735C;float: left; width: 100%; padding:20px 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 .wid60{width: 60%; float: left; color: #ffffff; font-size: 1.5em;}
 .wid40{width: 40%; float: left;}
 .category-icons td{padding: 6px; width: 20%;}

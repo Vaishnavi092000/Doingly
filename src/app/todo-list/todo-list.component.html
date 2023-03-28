@@ -8,11 +8,11 @@
       <h4 class="text-left mb-10"><b>Categories</b></h4>
       <table class="categories-table w100 nav nav-pills" [cellSpacing]="10">
         <tr class="category-icons">
-            <td><button class="btn btn"><img src="../../assets/user.png" class="w100 dim24"></button></td>
-            <td><button class="btn btn"><img src="../../assets/suitcase.png" class="w100 dim24"></button></td>
-            <td><button class="btn btn"><img src="../../assets/travel.png" class="w100 dim24"></button></td>
-            <td><button class="btn btn"><img src="../../assets/cardiogram.png" class="w100 dim24"></button></td>
-            <td><button class="btn btn"><img src="../../assets/add-button.png" class="w100 dim24"></button></td>
+            <td><button class="btn btn" (click)="showPersonal()"><img src="../../assets/user.png" class="w100 dim24"></button></td>
+            <td><button class="btn btn" (click)="showWork()"><img src="../../assets/suitcase.png" class="w100 dim24"></button></td>
+            <td><button class="btn btn" (click)="showTravel()"><img src="../../assets/travel.png" class="w100 dim24"></button></td>
+            <td><button class="btn btn" (click)="showHealth()"><img src="../../assets/cardiogram.png" class="w100 dim24"></button></td>
+            <td><button class="btn btn" (click)="addCategory()"><img src="../../assets/add-button.png" class="w100 dim24"></button></td>
         </tr>
         <tr>
             <td class="category-name">Personal</td>
